@@ -1,0 +1,23 @@
+{
+  "name": "nasa-theme-vscode",
+  "displayName": "NASA Theme",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "description": "vscode theme inspired by NASA",
+  "publisher": "shaunix",
+  "license": "Unlicense",
+  "contributes": {
+    "themes": [
+      {
+        "label": "NASA-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/NASA-theme.json"
+      }
+    ]
+  }
+}

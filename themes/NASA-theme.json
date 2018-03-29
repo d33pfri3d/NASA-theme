@@ -1,0 +1,31 @@
+{
+  "name": "NASA",
+  "type": "dark",
+  "colors": {
+    "editor.backzground": "#000000",
+    "editor.foreground": "#FB7700",
+    "editor.lineHighlightBackground": "#313131"
+  },
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": [
+        "comment.block",
+        "comment.line.double-slash"
+      ],
+      "settings": {
+        "foreground": "#FCDE00",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Import Statements",
+      "scope": [
+        "keyword.control.import"
+      ],
+      "settings": {
+        "foreground": "#FC3D21"
+      }
+    }
+  ]
+}
