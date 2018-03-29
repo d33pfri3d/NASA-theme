@@ -26,6 +26,15 @@
       "settings": {
         "foreground": "#FC3D21"
       }
+    },
+    {
+      "name": "Variable",
+      "scope": [
+        "variable.other.readwrite.alias"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
     }
   ]
 }
